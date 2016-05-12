@@ -39,7 +39,7 @@ Get a coffee as it will take a while for it to finish provisioning.  The first t
 * IP / Host: `192.168.50.4`
  * The ip will be the private_network value defined in `Vagrantfile`
 * Username: `sa`
-* Password: `password1`
+* Password: `#SAPassword!`
  * To change this modify the value in `install-sql-server.cmd`
 
 If you are using Rails you will need the following gems
@@ -56,7 +56,7 @@ development:
   database: <YOUR DB>
   host: 192.168.50.4 # Should match the private_network in Vagrantfile
   username: sa
-  password: 'password1'
+  password: '#SAPassword!'
 ```
 
 _More information on https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/wiki/Using-TinyTDS_
